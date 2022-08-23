@@ -1,9 +1,8 @@
 body {
     font-family: Lato;
     background-color: #FFFFFF;
-    /* background-color: #936be80d; */
 }
-section {
+.section1 {
     background-image: url("../images/banner3.jpg");
     height: 100px;
 }
@@ -22,4 +21,7 @@ h2 {
 .btn-primary {
     background-color: #FFA500;
     border-color: #FFA500;;
+}
+.section3 {
+    background-color: #936be80d;
 }
