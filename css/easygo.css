@@ -1,0 +1,15 @@
+body {
+    font-family: Lato;
+    background-color: #FFFFFF;
+    /* background-color: #936be80d; */
+}
+section {
+    background-image: url("../images/banner3.jpg");
+    height: 100px;
+}
+.about-us {
+    color: #FFFFFF;
+}
+.home {
+    color: #FFA500;
+}
