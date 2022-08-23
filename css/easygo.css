@@ -13,3 +13,13 @@ section {
 .home {
     color: #FFA500;
 }
+.p-orange {
+    color: #FFA500;
+}
+h2 {
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #FFA500;
+    border-color: #FFA500;;
+}
