@@ -28,3 +28,46 @@ h2 {
 h3 {
     font-weight: bold;
 }
+.myself {
+    background: url("../images/ademusire-photo.jpg") no-repeat center;
+        background-size: cover;
+        height: 16em;
+        position: relative;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-right: 10px;
+}
+.image-text {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
+.image-text > p {
+    font-size: 80%;
+}
+.myself2 {
+    background: url("../images/ademusire-photo.jpg") no-repeat center;
+    background-size: cover;
+    height: 16em;
+    position: relative;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.lg-only {
+    display: none;
+}
+@media screen and (min-width: 992px) {
+    .excl-lg {
+        display: none;
+    }
+    .lg-only {
+        display: flex;
+    }
+    .myself {
+        height: 23em;
+    }
+}
