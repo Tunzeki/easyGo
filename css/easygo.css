@@ -1,5 +1,7 @@
 body {
     font-family: Lato;
+}
+.main {
     background-color: #FFFFFF;
 }
 .section1 {
@@ -29,6 +31,9 @@ h2 {
     background-color: #936be80d;
 }
 h3 {
+    font-weight: bold;
+}
+h4 {
     font-weight: bold;
 }
 .myself {
@@ -62,6 +67,24 @@ h3 {
 }
 .lg-only {
     display: none;
+}
+footer {
+    background-color: #936be80d;
+}
+footer .nav-link {
+    color: #6c757d;
+    padding-left: 0rem;
+}
+.subscribe {
+    background-color: #FFFFFF;
+}
+.subscribe > .btn-primary {
+    background-color: #0453B5;
+    border-color: #0453B5;
+    ;
+}
+.social-media {
+    color: #000000;
 }
 @media screen and (min-width: 992px) {
     .excl-lg {

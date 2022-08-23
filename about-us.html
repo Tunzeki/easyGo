@@ -10,6 +10,8 @@
     <title>About Us</title>
     <script src="https://kit.fontawesome.com/a68641f048.js" crossorigin="anonymous"></script>
     <link rel="canonical" href="about-us.html">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -19,7 +21,7 @@
 </head>
 
 <body>
-    <div>
+    <div class="main">
         <header>
             <nav class="navbar navbar-expand-lg bg-white navbar-white">
                 <div class="container">
@@ -221,18 +223,76 @@
                             <div>
                                 <button type="submit" class="btn btn-primary">Send Message</button>
                             </div>
-                        </form>
-                        
+                        </form>   
                     </div>
                 </div>
             </div>
         </section>
+        <section class="section7">
             
+        </section>
             
-        <footer>
-
-        </footer>
+        
     </div>
+    <footer>
+        <div class="container mt-5 pt-5">
+            <div class="row mb-4">
+                <div class="col-12 col-lg-3">
+                    <h4>Trip Goers</h4>
+                    <nav class="nav flex-column">
+                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="#">Frequently Asked Questions</a>
+                        <a class="nav-link" href="#">Report A Problem</a>
+                    </nav>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h4>Trip Curators</h4>
+                    <nav class="nav flex-column">
+                        <a class="nav-link active" href="#">Become A Curator</a>
+                        <a class="nav-link" href="#">Frequently Asked Questions</a>
+                        <a class="nav-link" href="#">Value Added Services</a>
+                        <a class="nav-link" href="#">Terms And Conditions</a>
+                    </nav>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h4>About Us</h4>
+                    <nav class="nav flex-column">
+                        <a class="nav-link active" href="#">Terms And Conditions</a>
+                        <a class="nav-link" href="#">Privacy Policy</a>
+                        <a class="nav-link" href="#">Meet The Team</a>
+                        <a class="nav-link" href="#">Careers</a>
+                    </nav>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h4>Newsletter</h4>
+                    <div>
+                        <form method="POST">
+                            <div class="col-10 input-group py-4 px-2 subscribe">
+                                <input type="email" name="subscriber_email" id="email" placeholder="Type your email..." class="form-control" required>
+                                <button type="submit" class="btn btn-primary input-group-text">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p>&copy; Website Adapted from 2020 Traversal. All rights reserved. Designed by Babatunde Ademusire</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-2 offset-4">
+                    <a href="#"><i class="fa fa-twitter social-media"></i></a>
+                </div>
+                <div class="col-2">
+                    <a href="#"><i class="fa fa-instagram social-media"></i></a>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
     <!-- Bootstrap JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
