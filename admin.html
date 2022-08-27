@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="EasyGo Admin">
+    <meta name="author" content="Babatunde Ademusire">
+    <title>Admin</title>
+    <script src="https://kit.fontawesome.com/a68641f048.js" crossorigin="anonymous"></script>
+    <link rel="canonical" href="admin.html">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/admin.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <!-- Show this on mobile -->
+            <nav class="navbar navbar-expand-lg excl-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">easyGo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+                        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <form method="GET" role="search">
+                        <div class="col-12 mx-4 mt-3">
+                            <input type="search" name="search" id="search" placeholder="Search..." class="form-control" required>
+                        </div>
+                    </form>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="" class="nav-link"><i class="fa fa-dashboard"></i> Dashboard</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class='fas fa-laptop'></i> Trips
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Create a Trip</a></li>
+                                    <li><a class="dropdown-item" href="#">View Trips</a></li>
+                                    <li><a class="dropdown-item" href="#">Bookings</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class='fas fa-wallet'></i> Financials
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Financials</a></li>
+                                    <li><a class="dropdown-item" href="#">Financials</a></li>
+                                    <li><a class="dropdown-item" href="#">Financials</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class='fas fa-envelope-open-text'></i> Notifications
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                    <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                    <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Show this on large screens -->
+            <nav class="navbar navbar-expand-lg lg-only">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">easyGo</a>
+                        
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                        
+                        <span class="ms-2 me-3"><i class='fas fa-comment'></i></span>
+                        <a href="" class="navbar-brand"><img src="images/account_image.png" width="30" height="30" class="img-fluid"
+                                alt="logo"></img></a>
+                                </form>
+                    
+                </div>
+            </nav>
+        </header>
+
+        
+        
+        
+    </div>
+    <footer>
+
+    </footer>
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("#hamburger").click(function () {
+
+                const hamburger = document.querySelector("#hamburger");
+                const times = document.querySelector("#times");
+                times.style.display = "block";
+                hamburger.style.visibility = "hidden";
+                
+            });
+
+            $("#times").click(function () {
+
+                times.style.display = "none";
+                hamburger.style.visibility = "visible";
+                
+            });
+
+        });
+    </script>
+    <!-- <script src="js/easygo.js"></script> -->
+</body>
+
+</html>
