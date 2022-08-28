@@ -1,7 +1,7 @@
 body {
     font-family: Roboto;
 }
-.navbar {
+header {
     background-color: #00cc66;
 }
 .navbar-brand {
@@ -16,7 +16,6 @@ body {
 }
 .lg-only {
     display: none;
-    background-color: #F2F3F8;
 }
 .mobile {
     background-color: #F2F3F8;
