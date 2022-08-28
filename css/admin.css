@@ -34,4 +34,10 @@ header {
     .lg-only {
         display: flex;
     }
+    .side-nav {
+        background-color: #333333;
+    }
+    .container {
+        margin-left: 0px;
+    }
 }

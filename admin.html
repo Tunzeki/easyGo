@@ -162,9 +162,132 @@
         
         </div>
 
-    <!-- Show this on mobile 
-    <div class="mobile">
+    <!-- 
+        Show this on desktop
+        Bootstrap Card Component in combination with its 12-column grid system was used to make the 
+        horizontal layout of cards below.
+        The side navigation bar with a black background takes 2 columns (class "col-lg-2") while the cards take 
+        the remaining 10 columns (class "col-lg-10")     
+    -->
+    <div class="lg-only mobile">
         <div class="container">
+            <div class="row">
+                <!-- Div containing the 2-column side navigation bar -->
+                <div class="col-lg-2 side-nav">
+                    <div class="" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav pt-3">
+                            <li class="nav-item">
+                                <a href="" class="nav-link"><i class="fa fa-dashboard"></i> Dashboard</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class='fas fa-laptop'></i> Trips
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Create a Trip</a></li>
+                                    <li><a class="dropdown-item" href="#">View Trips</a></li>
+                                    <li><a class="dropdown-item" href="#">Bookings</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class='fas fa-wallet'></i> Financials
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Financials</a></li>
+                                    <li><a class="dropdown-item" href="#">Financials</a></li>
+                                    <li><a class="dropdown-item" href="#">Financials</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class='fas fa-envelope-open-text'></i> Notifications
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                    <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                    <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Div containing the 10-column card layout -->
+                <div class="col-lg-10">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 mt-4 ms-2">
+                                All time statistics
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <div class="card me-1">
+                                <div class="row g-0">
+                                    <div class="col-4 ps-1">
+                                        <i class='fas fa-comment' style="font-size:70px"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body ps-3">
+                                            <div class="card-title">4</div>
+                                            <p class="card-text"><small class="text-muted">Published Trips</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="card me-1">
+                                <div class="row g-0">
+                                    <div class="col-4 ps-1">
+                                        <i class='fas fa-users' style="font-size:67px"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body ps-4">
+                                            <div class="card-title">1</div>
+                                            <p class="card-text"><small class="text-muted">Trip Booking</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="card me-1">
+                                <div class="row g-0">
+                                    <div class="col-4 ps-1">
+                                        <i class='fas fa-thumbs-up' style="font-size:70px"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="card-title">GHS 0</div>
+                                            <p class="card-text"><small class="text-muted" style="font-size:70%">Withdrawable Balance</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="card me-1">
+                                <div class="row g-0">
+                                    <div class="col-4 ps-1">
+                                        <i class='fas fa-dollar-sign' style="font-size:70px"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="card-title">GHS 840.00</div>
+                                            <p class="card-text"><small class="text-muted">Total Revenue</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--
             <div class="row">
                 <div class="col-12 mt-4 ms-2">
                     All time statistics
@@ -224,6 +347,7 @@
                     </div>
                 </div>
             </div>
+        -->
             
             
             
@@ -231,7 +355,6 @@
         </div>
     
     </div>
-    -->
         
         
     </div>
