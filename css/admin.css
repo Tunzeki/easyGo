@@ -42,6 +42,12 @@ header {
 .arr-down {
     color: #ff0000;
 }
+.edit-icon {
+    background-color: #333333; 
+    padding:2px; 
+    color:#FFFFFF;
+    text-decoration: none;
+}
 @media screen and (min-width: 992px) {
     .excl-lg {
         display: none;
